@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Hl7.Fhir.Support" Version="4.3.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Application.Dto\TFHKA.Adjuntos.listado.Application.Dto.csproj" />
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Application.Interfaz\TFHKA.Adjuntos.listado.Application.Interfaz.csproj" />
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Domain.Interfaz\TFHKA.Adjuntos.listado.Domain.Interfaz.csproj" />
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Transversal.Comun\TFHKA.Adjuntos.listado.Transversal.Comun.csproj" />
+  </ItemGroup>
+
+</Project>

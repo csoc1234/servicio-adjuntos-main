@@ -1,0 +1,72 @@
+﻿namespace TFHKA.Adjuntos.listado.Domain.Entidad
+{
+    public class Invoice21
+    {
+        public int Id { get; set; }
+        public int IdEnterprise { get; set; }
+        public int IdAuthorizedInvoice { get; set; }
+        public int? IdUser { get; set; }
+        public int? IdEnterprisePdf { get; set; }
+        public byte IdTypeApplication { get; set; }
+        public bool Active { get; set; }
+        public short Status { get; set; }
+        public short? DianStatus { get; set; }
+        public string DocumentId { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public byte AttachmentType { get; set; }
+        public string InvoiceType { get; set; }
+        public string UblVersionId { get; set; }
+        public string OperationType { get; set; }
+        public string ProfileId { get; set; }
+        public string Uuid { get; set; }
+        public string UuidSchemename { get; set; }
+        public string UuidRaw { get; set; }
+        public DateTime IssueDate { get; set; }
+        public TimeSpan IssueTime { get; set; }
+        public string Currency { get; set; }
+        public int SupplierAccountId { get; set; }
+        public string SupplierTypeIdentification { get; set; }
+        public string SupplierIdentification { get; set; }
+        public string SupplierIdentificationdv { get; set; }
+        public string SupplierRegistrationName { get; set; }
+        public int? CustomerAccountId { get; set; }
+        public string CustomerTypeIdentification { get; set; }
+        public string CustomerIdentification { get; set; }
+        public string CustomerIdentificationdv { get; set; }
+        public string CustomerRegistrationName { get; set; }
+        public decimal? LineExtensionAmount { get; set; }
+        public decimal? TaxExclusiveAmount { get; set; }
+        public decimal? PayableAmount { get; set; }
+        public decimal? AllowanceTotalAmount { get; set; }
+        public decimal? ChargeTotalAmount { get; set; }
+        public decimal? PrepaidAmount { get; set; }
+        public decimal? PayableRoundingAmount { get; set; }
+        public decimal? WithholdingAmount { get; set; }
+        public string DianStatusMessage { get; set; }
+        public string DianStatusValidations { get; set; }
+        public DateTime? DianStatusDatetime { get; set; }
+        public byte Enviroment { get; set; }
+        public string TrackId { get; set; }
+        public string Comments { get; set; }
+        public string InternalComments { get; set; }
+        public string QrCode { get; set; }
+        public short? LineCountNumeric { get; set; }
+        public string PathFile { get; set; }
+        public string DianDeliveryMethod { get; set; }
+        public string SessionLog { get; set; }
+        public string Namefile { get; set; }
+        public short? PdfStatus { get; set; }
+        public string PdfComment { get; set; }
+        public short? InternalCode { get; set; }
+        public string DianStatusNotifications { get; set; }
+        public bool? AttachmentsWasCompleted { get; set; }
+        public bool? AcknowledgmentReceipt { get; set; }
+        public byte? TypeReceipt { get; set; }
+        public byte? ResponseAcknowledgment { get; set; }
+        public string AcknowledgmentComment { get; set; }
+        public string FiscalStorageAccount { get; set; }
+        public string CustomStorageAccount { get; set; }
+        public string IpInsercion { get; set; }
+        public string IpActualizacion { get; set; }
+    }
+}

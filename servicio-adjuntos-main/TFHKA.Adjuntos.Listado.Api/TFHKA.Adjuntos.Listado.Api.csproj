@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Collection" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Application.Dto\TFHKA.Adjuntos.listado.Application.Dto.csproj" />
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Application.Interfaz\TFHKA.Adjuntos.listado.Application.Interfaz.csproj" />
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Application.Principal\TFHKA.Adjuntos.listado.Application.Principal.csproj" />
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Domain.Core\TFHKA.Adjuntos.listado.Domain.Core.csproj" />
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Domain.Entidad\TFHKA.Adjuntos.listado.Domain.Entidad.csproj" />
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Domain.Interfaz\TFHKA.Adjuntos.listado.Domain.Interfaz.csproj" />
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Infraestructure.Datos\TFHKA.Adjuntos.listado.Infraestructure.Datos.csproj" />
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Infraestructure.Repo\TFHKA.Adjuntos.listado.Infraestructure.Repo.csproj" />
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Transversal.Comun\TFHKA.Adjuntos.listado.Transversal.Comun.csproj" />
+    <ProjectReference Include="..\TFHKA.Adjuntos.listado.Transversal.Mapeo\TFHKA.Adjuntos.listado.Transversal.Mapeo.csproj" />
+  </ItemGroup>
+
+</Project>
